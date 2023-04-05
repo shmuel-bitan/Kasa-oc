@@ -1,0 +1,32 @@
+.page-404 {
+    text-align: center
+  }
+  
+  .titre-404 {
+    color: #ff6060;
+    font-size: 150px;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+  }
+  
+  .description-404 {
+    color: #ff6060;
+    display: block;
+    font-size: 20px;
+  }
+  
+  .lien-site.lien-404 {
+    display: block;
+    margin-top: 150px;
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 1490px) {
+    .titre-404 {
+      font-size: 96px;
+    }
+    
+    .description-404 {
+      font-size: 18px;
+    }
+  }

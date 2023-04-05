@@ -1,0 +1,134 @@
+.Fiche {
+    color: #ff6060;
+}
+
+.logements-propietaire {
+    display: inline-flex;
+    width: 100%;
+}
+
+.logements-propietaire > div {
+    flex: 1 0 auto;
+}
+
+.information-logements {
+    flex-direction: column;
+}
+
+.titre-logement {
+    font-size: 36px;
+}
+
+.endroit-logement {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.information-propietaire {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+.nom-proprietaire {
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: right;
+    width: 100px;
+}
+
+.photo-propietaire {
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+}
+
+.note {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.etoile {
+    height: 30px;
+    width: 30px;
+}
+
+.description-equipements {
+    display: inline-flex;
+    gap: 0 75px;
+    line-height: 22.5px;
+    list-style: none;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.description-equipements > .dropdown {
+    width: 50%;
+}
+
+@media screen and (max-width: 1490px) {
+    .logements-propietaire {
+        display: block;
+    }
+
+    .titre-logement {
+        display: block;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .endroit-logement {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .tags {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 10px 0;
+    }
+
+    .tags > .tag {
+        margin-left: 0px;
+        min-width: 50px;
+    }
+
+    .proprietaire-note {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .information-propietaire {
+        margin-bottom: unset;
+        width: 100%;
+    }
+
+    .photo-propietaire {
+        height: 32px;
+        width: 32px;
+    }
+
+    .etoile {
+        height: 25px;
+        width: 25px;
+    }
+
+    .description-equipements {
+        display: block;
+    }
+
+    .description-equipements > .dropdown {
+        width: 100%;
+    }
+    
+    .dropdown {
+        margin-bottom: 20px;
+    }
+}

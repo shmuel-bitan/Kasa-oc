@@ -1,0 +1,41 @@
+.card {
+    border-radius: 10px;
+    height: 100%;
+    min-height: 340px;
+    position: relative;
+}
+
+
+.card-image {
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+.card-sombre {
+    background: linear-gradient(180deg, #ffffff00 0%, #00000080 100%);
+    border-radius: 10px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.card-titre {
+    bottom: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    left: 20px;
+    margin-right: 20px;
+    position: absolute;
+}
+
+@media screen and (max-width: 1490px) {
+    .card {
+        min-height: 255px;
+    }
+}

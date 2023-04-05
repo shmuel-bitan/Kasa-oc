@@ -1,0 +1,26 @@
+footer {
+    background-color: #000000;
+    height: 200px;
+    margin-top: 35px;
+    position: relative;
+  }
+  
+  #footer-container {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    padding: 25px 0px;
+  }
+  
+  #footer-container > img {
+    display: block;
+    margin: auto;
+  }
+  
+  #footer-container > p {
+    color: #ffffff;
+    text-align: center;
+  }
+  
+
+

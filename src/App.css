@@ -1,0 +1,18 @@
+/* Base */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Polices */
+* {
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+/* Contenu */
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
